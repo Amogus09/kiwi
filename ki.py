@@ -180,7 +180,7 @@ def run8():
 
 for y in range(threads):
   if choice == 'y':
-    th = threading.Thread(target = run)
+    th = threading.Thread(target = run1)
     th.start()
     th = threading.Thread(target = run2)
     th.start()
